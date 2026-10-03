@@ -1,0 +1,18 @@
+# dependencies & build output
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# tooling
+.playwright-mcp/
+*.log
+
+# environment
+.env
+.env.*
+
+# os
+.DS_Store
+Thumbs.db
