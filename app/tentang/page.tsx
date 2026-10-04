@@ -6,9 +6,10 @@ import { FEATURES, WHY_US } from "@/lib/data";
 import { SITE, waLink } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Tentang Kami",
+  title: "Tentang Jasa Pasang Kanopi",
   description:
-    "Kenali Bill Faqih's Canopy — penyedia jasa pemasangan kanopi untuk rumah tinggal, ruko, dan area komersial.",
+    "Kenali Bill Faqih's Canopy — penyedia jasa pemasangan kanopi dan carport untuk rumah, ruko, dan area komersial di Jabodetabek.",
+  alternates: { canonical: "/tentang/" },
 };
 
 export default function TentangPage() {

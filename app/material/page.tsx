@@ -5,9 +5,10 @@ import CtaBand from "@/components/cta-band";
 import { MATERIALS } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Material & Model",
+  title: "Material & Model Kanopi",
   description:
-    "Pilihan material kanopi berkualitas: baja ringan, polycarbonate, spandek, dan kaca tempered.",
+    "Pilihan material kanopi berkualitas: baja ringan, polycarbonate, spandek, dan kaca tempered. Model kanopi minimalis untuk rumah dan ruko.",
+  alternates: { canonical: "/material/" },
 };
 
 export default function MaterialPage() {

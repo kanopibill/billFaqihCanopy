@@ -8,8 +8,9 @@ import { SERVICES, GALLERY } from "@/lib/data";
 import { SITE, waLink } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: `${SITE.name} — Jasa Pasang Kanopi Rumah, Ruko & Komersial`,
+  title: `${SITE.name} — Jasa Pasang Kanopi Rumah, Ruko & Carport Jabodetabek`,
   description: SITE.description,
+  alternates: { canonical: "/" },
 };
 
 export default function HomePage() {
@@ -43,11 +44,11 @@ export default function HomePage() {
           </div>
 
           <h1 className="mt-14 max-w-3xl text-4xl leading-[1.05] font-extrabold tracking-tight sm:mt-20 sm:text-6xl">
-            Solusi Kanopi untuk Hunian &amp; Bisnis Anda
+            Jasa Pasang Kanopi &amp; Carport untuk Rumah dan Bisnis Anda
           </h1>
           <p className="mt-6 max-w-lg text-base text-white/75 sm:text-lg">
-            Kami hadir untuk memberikan layanan pemasangan kanopi berkualitas, kuat, rapi,
-            dan tahan lama.
+            Jasa pemasangan kanopi di Jabodetabek untuk rumah tinggal, ruko, dan area
+            komersial — rangka kuat, pemasangan rapi, dan tahan lama.
           </p>
 
           <div className="mt-9 flex flex-wrap gap-3">

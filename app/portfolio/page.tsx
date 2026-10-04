@@ -5,9 +5,10 @@ import ProjectCarousel from "@/components/project-carousel";
 import { GALLERY } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Portfolio & Project",
+  title: "Portfolio Pemasangan Kanopi & Carport",
   description:
-    "Berbagai proyek pemasangan kanopi, carport, dan railing yang telah kami kerjakan dengan hasil rapi dan rapi.",
+    "Proyek pemasangan kanopi, carport, dan railing yang telah kami kerjakan di Jabodetabek — hasil rapi, kokoh, dan tahan lama.",
+  alternates: { canonical: "/portfolio/" },
 };
 
 export default function PortfolioPage() {

@@ -12,19 +12,26 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://billfaqihcanopy.example"),
+  metadataBase: new URL(SITE.url),
   title: {
-    default: `${SITE.name} — Jasa Pasang Kanopi`,
+    default: `${SITE.name} — Jasa Pasang Kanopi & Carport Jabodetabek`,
     template: `%s | ${SITE.name}`,
   },
   description: SITE.description,
+  keywords: SITE.keywords,
   openGraph: {
     type: "website",
     locale: "id_ID",
+    url: SITE.url,
     siteName: SITE.name,
-    title: `${SITE.name} — Jasa Pasang Kanopi`,
+    title: `${SITE.name} — Jasa Pasang Kanopi & Carport Jabodetabek`,
     description: SITE.description,
     images: [{ url: "/images/hero-carport-senja.webp", width: 1920, height: 1080 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${SITE.name} — Jasa Pasang Kanopi & Carport Jabodetabek`,
+    description: SITE.description,
   },
   robots: { index: true, follow: true },
 };

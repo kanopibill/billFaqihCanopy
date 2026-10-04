@@ -1,12 +1,12 @@
 import type { MetadataRoute } from "next";
-import { NAV } from "@/lib/site";
+import { NAV, SITE } from "@/lib/site";
 
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();
   return NAV.map((item) => ({
-    url: item.href,
+    url: `${SITE.url}${item.href}`,
     lastModified,
     changeFrequency: "monthly" as const,
     priority: item.href === "/" ? 1 : 0.7,

@@ -5,9 +5,10 @@ import CtaBand from "@/components/cta-band";
 import { SERVICES } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Layanan Kami",
+  title: "Layanan Jasa Pasang Kanopi",
   description:
-    "Layanan pemasangan kanopi: kanopi rumah tinggal, ruko & toko, area komercial, dan custom design.",
+    "Layanan pemasangan kanopi: kanopi rumah tinggal, ruko & toko, area komercial, dan custom design. Melayani Jabodetabek.",
+  alternates: { canonical: "/layanan/" },
 };
 
 export default function LayananPage() {

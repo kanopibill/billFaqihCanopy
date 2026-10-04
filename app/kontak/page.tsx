@@ -5,9 +5,10 @@ import SectionLabel from "@/components/section-label";
 import { SITE, waLink } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Kontak",
+  title: "Konsultasi & Pemesanan Kanopi",
   description:
-    "Hubungi Bill Faqih's Canopy untuk konsultasi dan pemesanan pemasangan kanopi. Konsultasi gratis, survey lokasi, dan garansi pekerjaan.",
+    "Hubungi Bill Faqih's Canopy untuk konsultasi dan pemesanan pemasangan kanopi di Jabodetabek. Konsultasi gratis, survey lokasi, dan garansi pekerjaan.",
+  alternates: { canonical: "/kontak/" },
 };
 
 const contacts = [
@@ -21,6 +22,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   name: SITE.name,
+  url: SITE.url,
   description: SITE.description,
   telephone: SITE.phone,
   email: SITE.email,
