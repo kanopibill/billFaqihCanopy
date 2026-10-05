@@ -10,6 +10,14 @@ export const SITE = {
   email: "halo@billfaqihcanopy.id",
   address: "Jabodetabek",
   area: "Jabodetabek (Jakarta, Bogor, Depok, Tangerang, Bekasi)",
+  cities: [
+    "Jakarta",
+    "Bogor",
+    "Depok",
+    "Tangerang",
+    "Tangerang Selatan",
+    "Bekasi",
+  ],
   keywords: [
     "jasa pasang kanopi",
     "kanopi carport",

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react";
 import SectionLabel from "@/components/section-label";
 import Breadcrumbs from "@/components/breadcrumbs";
@@ -25,11 +26,19 @@ const jsonLd = {
   "@id": `${SITE.url}/#organization`,
   name: SITE.name,
   url: SITE.url,
+  image: `${SITE.url}/images/og-cover.jpg`,
   description: SITE.description,
   telephone: SITE.phone,
   email: SITE.email,
-  address: { "@type": "PostalAddress", addressLocality: SITE.address },
-  areaServed: SITE.area,
+  priceRange: "$$",
+  address: { "@type": "PostalAddress", addressCountry: "ID", addressRegion: SITE.address },
+  areaServed: SITE.cities,
+  openingHoursSpecification: {
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+    opens: "08:00",
+    closes: "17:00",
+  },
 };
 
 export default function KontakPage() {
@@ -88,6 +97,42 @@ export default function KontakPage() {
               className="object-cover"
             />
           </div>
+        </div>
+      </section>
+
+      <section className="bg-ink text-white">
+        <div className="mx-auto max-w-6xl px-5 py-20">
+          <SectionLabel>Area Layanan</SectionLabel>
+          <h2 className="mt-5 max-w-2xl text-3xl font-extrabold tracking-tight sm:text-4xl">
+            Wilayah Pemasangan Kanopi di Jabodetabek
+          </h2>
+          <p className="mt-6 max-w-3xl leading-relaxed text-white/70">
+            Bill Faqih&apos;s Canopy melayani pemasangan kanopi, carport, dan railing untuk
+            pelanggan di seluruh Jabodetabek. Tim kami siap survey ke lokasi Anda — mulai dari
+            kanopi rumah tinggal, kanopi ruko, sampai proyek komersial di setiap kota berikut.
+          </p>
+
+          <ul className="mt-8 flex flex-wrap gap-3">
+            {SITE.cities.map((city) => (
+              <li
+                key={city}
+                className="rounded-full border border-white/20 px-5 py-2.5 text-sm font-semibold"
+              >
+                {city}
+              </li>
+            ))}
+          </ul>
+
+          <p className="mt-8 text-sm text-white/60">
+            Kota lain di luar daftar?{" "}
+            <Link
+              href="/layanan/"
+              className="font-semibold text-brand-light hover:underline"
+            >
+              Hubungi kami
+            </Link>{" "}
+            untuk menanyakan ketersediaan survey lokasi.
+          </p>
         </div>
       </section>
 
