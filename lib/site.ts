@@ -4,8 +4,9 @@ export const SITE = {
   url: "https://bill-faqih-canopy.vercel.app",
   description:
     "Jasa pasang kanopi dan carport di Jabodetabek untuk rumah, ruko, dan area komercial. Rangka baja ringan, atap polycarbonate & spandek, rapi, kuat, dan tahan lama.",
-  phone: "+62 000-0000-0000",
-  wa: "620000000000",
+  phone: "+62 899-7991-423",
+  wa: "628997991423",
+  alternateName: ["Bill Faqih Canopy", "Kanopi Faqih", "Bill Faqih"],
   email: "halo@billfaqihcanopy.id",
   address: "Jabodetabek",
   area: "Jabodetabek (Jakarta, Bogor, Depok, Tangerang, Bekasi)",

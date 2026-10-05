@@ -25,10 +25,11 @@ export default function TentangPage() {
               Canopy
             </h1>
             <p className="mt-6 leading-relaxed text-muted">
-              Kami adalah penyedia jasa pemasangan kanopi untuk berbagai kebutuhan, mulai
-              dari rumah tinggal, ruko, hingga area komersial. Dengan pengalaman dan tim
-              profesional, kami berkomitmen memberikan hasil terbaik dengan kualitas
-              material yang terjamin.
+              Bill Faqih&apos;s Canopy adalah penyedia jasa pasang kanopi dan carport untuk
+              berbagai kebutuhan, mulai dari rumah tinggal, ruko, hingga area komersial di
+              Jabodetabek. Dengan pengalaman dan tim profesional, kami berkomitmen memberikan
+              hasil terbaik dengan kualitas material yang terjamin, pemasangan rapi, dan
+              garansi pekerjaan.
             </p>
 
             <blockquote className="mt-8 rounded-3xl bg-brand p-8 text-white">

@@ -11,6 +11,24 @@ const jakarta = Plus_Jakarta_Sans({
   display: "swap",
 });
 
+const organizationLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": `${SITE.url}/#organization`,
+  name: SITE.name,
+  alternateName: SITE.alternateName,
+  url: SITE.url,
+  logo: `${SITE.url}/images/logo.webp`,
+  description: SITE.description,
+  contactPoint: {
+    "@type": "ContactPoint",
+    telephone: SITE.phone,
+    contactType: "customer service",
+    areaServed: SITE.area,
+    availableLanguage: ["Indonesian"],
+  },
+};
+
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
@@ -43,6 +61,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <SiteFooter />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }}
+        />
       </body>
     </html>
   );

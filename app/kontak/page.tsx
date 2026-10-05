@@ -21,6 +21,7 @@ const contacts = [
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
+  "@id": `${SITE.url}/#organization`,
   name: SITE.name,
   url: SITE.url,
   description: SITE.description,
@@ -38,11 +39,12 @@ export default function KontakPage() {
           <div>
             <SectionLabel>Hubungi Kami</SectionLabel>
             <h1 className="mt-5 text-4xl font-extrabold tracking-tight sm:text-5xl">
-              Konsultasi &amp; Pemesanan
+              Konsultasi Pemasangan Kanopi &amp; Carport
             </h1>
             <p className="mt-6 max-w-lg leading-relaxed text-muted">
               Ceritakan kebutuhan kanopi Anda. Tim kami siap membantu mulai dari konsultasi
-              desain, survey lokasi, hingga pemasangan.
+              desain, survey lokasi, hingga pemasangan kanopi di Jabodetabek — gratis tanpa
+              biaya, lengkap dengan garansi pekerjaan.
             </p>
 
             <dl className="mt-10 grid gap-4 sm:grid-cols-2">

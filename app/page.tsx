@@ -4,6 +4,7 @@ import Image from "next/image";
 import { ArrowRight, MessageCircle } from "lucide-react";
 import SectionLabel from "@/components/section-label";
 import CtaBand from "@/components/cta-band";
+import Faq from "@/components/faq";
 import { SERVICES, GALLERY } from "@/lib/data";
 import { SITE, waLink } from "@/lib/site";
 
@@ -140,6 +141,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <Faq />
 
       <CtaBand />
     </>

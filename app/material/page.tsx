@@ -18,11 +18,13 @@ export default function MaterialPage() {
         <div className="mx-auto max-w-6xl px-5 py-20">
           <SectionLabel>Material &amp; Model</SectionLabel>
           <h1 className="mt-5 max-w-2xl text-4xl font-extrabold tracking-tight sm:text-5xl">
-            Pilihan Material Berkualitas
+            Material Kanopi: Baja Ringan, Polycarbonate, Spandek
           </h1>
           <p className="mt-6 max-w-2xl leading-relaxed text-muted">
-            Kami menggunakan material terbaik yang kuat, tahan cuaca, dan memiliki
-            tampilan modern untuk hasil yang maksimal.
+            Kami menggunakan material terbaik yang kuat, tahan cuaca, dan memiliki tampilan
+            modern untuk hasil yang maksimal. Pilih rangka baja ringan yang kokoh, atap
+            polycarbonate yang terang, spandek yang ekonomis, atau kaca tempered yang elegan —
+            semua tersedia untuk pemasangan kanopi rumah, carport, dan ruko di Jabodetabek.
           </p>
 
           <div className="mt-14 grid gap-6 sm:grid-cols-2">

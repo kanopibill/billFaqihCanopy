@@ -20,14 +20,16 @@ export default function PortfolioPage() {
           <div className="mt-5 grid gap-8 lg:grid-cols-[1fr_1.4fr] lg:items-end">
             <div>
               <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">
-                Hasil Kerja
+                Portfolio
                 <br />
-                Kami
+                Pemasangan Kanopi
               </h1>
             </div>
             <p className="leading-relaxed text-muted">
-              Berbagai proyek kanopi yang telah kami kerjakan dengan hasil rapi, kuat, dan
-              memuaskan.
+              Berbagai proyek pemasangan kanopi, carport, dan railing yang telah kami kerjakan
+              di Jabodetabek — hasil rapi, kuat, dan memuaskan. Mulai dari kanopi rumah tinggal
+              minimalis hingga kanopi ruko dan area komersial, setiap pekerjaan diselesaikan
+              dengan material berkualitas dan finishing yang rapi.
             </p>
           </div>
 
