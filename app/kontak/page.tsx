@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react";
 import SectionLabel from "@/components/section-label";
+import Breadcrumbs from "@/components/breadcrumbs";
 import { SITE, waLink } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -38,6 +39,7 @@ export default function KontakPage() {
         <div className="mx-auto grid max-w-6xl gap-12 px-5 py-20 lg:grid-cols-[1.1fr_1fr] lg:items-center">
           <div>
             <SectionLabel>Hubungi Kami</SectionLabel>
+            <Breadcrumbs label="Kontak" href="/kontak/" />
             <h1 className="mt-5 text-4xl font-extrabold tracking-tight sm:text-5xl">
               Konsultasi Pemasangan Kanopi &amp; Carport
             </h1>

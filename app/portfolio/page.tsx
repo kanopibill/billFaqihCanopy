@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import SectionLabel from "@/components/section-label";
+import Breadcrumbs from "@/components/breadcrumbs";
 import ProjectCarousel from "@/components/project-carousel";
 import { GALLERY } from "@/lib/data";
 
@@ -17,6 +18,7 @@ export default function PortfolioPage() {
       <section className="bg-cream">
         <div className="mx-auto max-w-6xl px-5 py-20">
           <SectionLabel>Portfolio</SectionLabel>
+          <Breadcrumbs label="Portfolio" href="/portfolio/" />
           <div className="mt-5 grid gap-8 lg:grid-cols-[1fr_1.4fr] lg:items-end">
             <div>
               <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl">

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { MessageCircle } from "lucide-react";
 import SectionLabel from "@/components/section-label";
+import Breadcrumbs from "@/components/breadcrumbs";
 import { FEATURES, WHY_US } from "@/lib/data";
 import { SITE, waLink } from "@/lib/site";
 
@@ -19,6 +20,7 @@ export default function TentangPage() {
         <div className="mx-auto grid max-w-6xl gap-12 px-5 py-20 lg:grid-cols-2 lg:items-center">
           <div>
             <SectionLabel>Tentang Kami</SectionLabel>
+            <Breadcrumbs label="Tentang" href="/tentang/" />
             <h1 className="mt-5 text-4xl font-extrabold tracking-tight sm:text-5xl">
               Bill Faqih&apos;s
               <br />

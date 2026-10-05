@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import SectionLabel from "@/components/section-label";
+import Breadcrumbs from "@/components/breadcrumbs";
 import CtaBand from "@/components/cta-band";
 import { SERVICES } from "@/lib/data";
 
@@ -17,6 +19,7 @@ export default function LayananPage() {
       <section className="bg-ink text-white">
         <div className="mx-auto max-w-6xl px-5 py-20">
           <SectionLabel>Layanan Kami</SectionLabel>
+          <Breadcrumbs label="Layanan" href="/layanan/" light />
           <h1 className="mt-5 max-w-2xl text-4xl font-extrabold tracking-tight sm:text-5xl">
             Layanan Jasa Pasang Kanopi &amp; Carport
           </h1>
@@ -25,6 +28,17 @@ export default function LayananPage() {
             gaya bangunan Anda — mulai dari kanopi rumah tinggal, kanopi ruko, carport, sampai
             area komersial. Setiap proyek dikerjakan dengan rangka baja ringan berkualitas,
             pemasangan rapi, dan garansi pekerjaan untuk pelanggan di seluruh Jabodetabek.
+          </p>
+          <p className="mt-4 max-w-2xl text-sm text-white/60">
+            Lihat juga{" "}
+            <Link href="/material/" className="font-semibold text-brand-light hover:underline">
+              material kanopi
+            </Link>{" "}
+            yang kami gunakan dan{" "}
+            <Link href="/portfolio/" className="font-semibold text-brand-light hover:underline">
+              portfolio proyek
+            </Link>{" "}
+            yang sudah selesai kami kerjakan.
           </p>
 
           <ul className="mt-14 divide-y divide-white/10 border-t border-white/10">

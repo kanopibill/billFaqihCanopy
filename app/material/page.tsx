@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import SectionLabel from "@/components/section-label";
+import Breadcrumbs from "@/components/breadcrumbs";
 import CtaBand from "@/components/cta-band";
 import { MATERIALS } from "@/lib/data";
 
@@ -17,6 +19,7 @@ export default function MaterialPage() {
       <section className="bg-cream">
         <div className="mx-auto max-w-6xl px-5 py-20">
           <SectionLabel>Material &amp; Model</SectionLabel>
+          <Breadcrumbs label="Material" href="/material/" />
           <h1 className="mt-5 max-w-2xl text-4xl font-extrabold tracking-tight sm:text-5xl">
             Material Kanopi: Baja Ringan, Polycarbonate, Spandek
           </h1>
@@ -25,6 +28,17 @@ export default function MaterialPage() {
             modern untuk hasil yang maksimal. Pilih rangka baja ringan yang kokoh, atap
             polycarbonate yang terang, spandek yang ekonomis, atau kaca tempered yang elegan —
             semua tersedia untuk pemasangan kanopi rumah, carport, dan ruko di Jabodetabek.
+          </p>
+          <p className="mt-4 max-w-2xl text-sm text-muted">
+            Bingung memilih? Lihat{" "}
+            <Link href="/layanan/" className="font-semibold text-brand-dark hover:underline">
+              layanan pemasangan kanopi
+            </Link>{" "}
+            kami atau contoh hasil kerjanya di{" "}
+            <Link href="/portfolio/" className="font-semibold text-brand-dark hover:underline">
+              portfolio
+            </Link>
+            .
           </p>
 
           <div className="mt-14 grid gap-6 sm:grid-cols-2">
