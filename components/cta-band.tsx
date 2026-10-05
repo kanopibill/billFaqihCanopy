@@ -13,7 +13,7 @@ export default function CtaBand() {
             <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
               Siap Pasang Kanopi?
             </h2>
-            <p className="mx-auto mt-4 max-w-xl text-white/80">
+            <p className="mx-auto mt-4 max-w-xl text-white">
               Konsultasikan kebutuhan dan desain kanopi Anda langsung dengan tim kami.
               Gratis, tanpa biaya.
             </p>

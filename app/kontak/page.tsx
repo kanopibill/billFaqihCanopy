@@ -102,7 +102,7 @@ export default function KontakPage() {
 
       <section className="bg-ink text-white">
         <div className="mx-auto max-w-6xl px-5 py-20">
-          <SectionLabel>Area Layanan</SectionLabel>
+          <SectionLabel light>Area Layanan</SectionLabel>
           <h2 className="mt-5 max-w-2xl text-3xl font-extrabold tracking-tight sm:text-4xl">
             Wilayah Pemasangan Kanopi di Jabodetabek
           </h2>

@@ -112,7 +112,7 @@ export default function HomePage() {
       {/* Layanan */}
       <section className="bg-ink text-white">
         <div className="mx-auto max-w-6xl px-5 py-20">
-          <SectionLabel>Layanan Kami</SectionLabel>
+          <SectionLabel light>Layanan Kami</SectionLabel>
           <div className="mt-5 flex flex-wrap items-end justify-between gap-4">
             <h2 className="max-w-xl text-3xl font-extrabold tracking-tight sm:text-4xl">
               Layanan Pemasangan Kanopi

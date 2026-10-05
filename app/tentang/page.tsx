@@ -83,7 +83,7 @@ export default function TentangPage() {
       <section className="bg-ink text-white">
         <div className="mx-auto grid max-w-6xl gap-12 px-5 py-20 lg:grid-cols-[1.1fr_1fr] lg:items-center">
           <div>
-            <SectionLabel>Kenapa Memilih Kami?</SectionLabel>
+            <SectionLabel light>Kenapa Memilih Kami?</SectionLabel>
             <h2 className="mt-5 text-3xl font-extrabold tracking-tight sm:text-4xl">
               Lebih dari Sekadar Pemasangan
             </h2>

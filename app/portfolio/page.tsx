@@ -60,7 +60,7 @@ export default function PortfolioPage() {
 
       <section className="bg-ink text-white">
         <div className="mx-auto max-w-6xl px-5 py-20">
-          <SectionLabel>Project</SectionLabel>
+          <SectionLabel light>Project</SectionLabel>
           <h2 className="mt-5 max-w-xl text-3xl font-extrabold tracking-tight sm:text-4xl">
             Proyek Terbaru Kami
           </h2>

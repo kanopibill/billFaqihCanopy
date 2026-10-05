@@ -18,7 +18,7 @@ export default function LayananPage() {
     <>
       <section className="bg-ink text-white">
         <div className="mx-auto max-w-6xl px-5 py-20">
-          <SectionLabel>Layanan Kami</SectionLabel>
+          <SectionLabel light>Layanan Kami</SectionLabel>
           <Breadcrumbs label="Layanan" href="/layanan/" light />
           <h1 className="mt-5 max-w-2xl text-4xl font-extrabold tracking-tight sm:text-5xl">
             Layanan Jasa Pasang Kanopi &amp; Carport

@@ -49,7 +49,7 @@ export default function SiteFooter() {
               </Link>
             ))}
           </nav>
-          <p className="text-xs text-white/40">
+          <p className="text-xs text-white/55">
             © {new Date().getFullYear()} {SITE.name}. Hak cipta dilindungi.
           </p>
         </div>
